@@ -1,0 +1,30 @@
+Source: pidgin-gnome-keyring
+Section: net
+Priority: optional
+Maintainer: Luca Boccassi <luca.boccassi@gmail.com>
+Uploaders: Thomas Bechtold <thomasbechtold@jpberlin.de>
+Build-Depends: debhelper (>= 9), pkg-config, libsecret-1-dev, libpurple-dev
+Standards-Version: 3.9.6
+Homepage: https://github.com/aebrahim/pidgin-gnome-keyring
+Vcs-Git: git://anonscm.debian.org/collab-maint/pidgin-gnome-keyring.git
+Vcs-Browser: http://anonscm.debian.org/cgit/collab-maint/pidgin-gnome-keyring.git
+
+Package: pidgin-gnome-keyring
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libsecret-1-0, libpurple0
+Description: integrates pidgin (and libpurple) with the system keyring
+ Pidgin usually stores passwords as plaintext with the "save password"
+ function. This plugin instead saves all passwords to the system keyring,
+ which some would argue is a more secure form of password storage.
+
+Package: pidgin-gnome-keyring-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: pidgin-gnome-keyring (= ${binary:Version}), ${misc:Depends}
+Description: debugging symbols for pidgin-gnome-keyring
+ Pidgin usually stores passwords as plaintext with the "save password"
+ function. This plugin instead saves all passwords to the system keyring,
+ which some would argue is a more secure form of password storage.
+ .
+ This package contains the debugging symbols for pidgin-gnome-keyring.

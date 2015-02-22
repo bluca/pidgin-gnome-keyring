@@ -1,0 +1,5 @@
+pidgin-gnome-keyring (2.0-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #714018)
+
+ -- Luca Boccassi <luca.boccassi@gmail.com>  Fri, 06 Feb 2015 22:02:05 +0000
