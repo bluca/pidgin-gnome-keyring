@@ -1,3 +1,9 @@
+pidgin-gnome-keyring (2.0-2) UNRELEASED; urgency=medium
+
+  * Switch to my @debian.org address.
+
+ -- Luca Boccassi <bluca@debian.org>  Sun, 03 Sep 2017 18:52:07 +0100
+
 pidgin-gnome-keyring (2.0-1) unstable; urgency=low
 
   * Initial release (Closes: #714018)

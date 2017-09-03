@@ -1,7 +1,7 @@
 Source: pidgin-gnome-keyring
 Section: net
 Priority: optional
-Maintainer: Luca Boccassi <luca.boccassi@gmail.com>
+Maintainer: Luca Boccassi <bluca@debian.org>
 Uploaders: Thomas Bechtold <thomasbechtold@jpberlin.de>
 Build-Depends: debhelper (>= 9), pkg-config, libsecret-1-dev, libpurple-dev
 Standards-Version: 3.9.6
