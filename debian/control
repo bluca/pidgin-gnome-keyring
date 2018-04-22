@@ -15,15 +15,3 @@ Description: integrates pidgin (and libpurple) with the system keyring
  Pidgin usually stores passwords as plaintext with the "save password"
  function. This plugin instead saves all passwords to the system keyring,
  which some would argue is a more secure form of password storage.
-
-Package: pidgin-gnome-keyring-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: pidgin-gnome-keyring (= ${binary:Version}), ${misc:Depends}
-Description: debugging symbols for pidgin-gnome-keyring
- Pidgin usually stores passwords as plaintext with the "save password"
- function. This plugin instead saves all passwords to the system keyring,
- which some would argue is a more secure form of password storage.
- .
- This package contains the debugging symbols for pidgin-gnome-keyring.
