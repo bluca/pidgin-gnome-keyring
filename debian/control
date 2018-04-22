@@ -12,6 +12,7 @@ Package: pidgin-gnome-keyring
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libsecret-1-0, libpurple0
 Multi-Arch: no
+Enhances: pidgin
 Description: integrates pidgin (and libpurple) with the system keyring
  Pidgin usually stores passwords as plaintext with the "save password"
  function. This plugin instead saves all passwords to the system keyring,
