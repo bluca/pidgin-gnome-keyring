@@ -11,6 +11,7 @@ Vcs-Browser: http://anonscm.debian.org/cgit/collab-maint/pidgin-gnome-keyring.gi
 Package: pidgin-gnome-keyring
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libsecret-1-0, libpurple0
+Multi-Arch: no
 Description: integrates pidgin (and libpurple) with the system keyring
  Pidgin usually stores passwords as plaintext with the "save password"
  function. This plugin instead saves all passwords to the system keyring,
